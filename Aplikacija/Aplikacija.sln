@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioSeminari", "BioSeminari\BioSeminari.csproj", "{BDDCED26-9D50-4851-933D-A7A6AB343AFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioSeminari.UnitTests", "BioSeminari.UnitTests\BioSeminari.UnitTests.csproj", "{7801C4A8-6B20-4E59-9D76-EA5BE36ACB26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDDCED26-9D50-4851-933D-A7A6AB343AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDCED26-9D50-4851-933D-A7A6AB343AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDCED26-9D50-4851-933D-A7A6AB343AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDCED26-9D50-4851-933D-A7A6AB343AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7801C4A8-6B20-4E59-9D76-EA5BE36ACB26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7801C4A8-6B20-4E59-9D76-EA5BE36ACB26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7801C4A8-6B20-4E59-9D76-EA5BE36ACB26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7801C4A8-6B20-4E59-9D76-EA5BE36ACB26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DCDBAFC-F0ED-4BF0-93FC-84388ADB4978}
+	EndGlobalSection
+EndGlobal

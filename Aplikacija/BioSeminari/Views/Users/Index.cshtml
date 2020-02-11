@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+    @if (ViewBag.displayMenu == "Yes")
+    {
+        <h1>Zaposlenici</h1>
+    }
+    else
+    {
+        <h2>  Welcome <strong>@ViewBag.Name</strong> :) .We will add user module soon </h2>
+    }
+
+    <table class="table users">
+        <tr>
+            <th>Identifikator</th>
+            <th>Uloga</th>
+            <th>Puno ime</th>
+            <th>Email adresa</th>
+            <th>Detalji</th>
+            <th>Uredi</th>
+        </tr>
+        @for (int i = 0; i < ViewBag.Users.Count; i++)
+        {
+            if (ViewBag.Roles[i].Contains("Admin"))
+            {
+                continue;
+            }
+            <tr>
+                <td>@ViewBag.Users[i].ReferenceId</td>
+                <td>@ViewBag.Roles[i]</td>
+                <td>@ViewBag.Users[i].FirstName @ViewBag.Users[i].LastName</td>
+                <td>@ViewBag.Users[i].Email</td>
+                <td>
+                    <a href="@Url.Action("Details", new { referenceId = ViewBag.Users[i].ReferenceId })">
+                        <i class="fa fa-info-circle moj-fa"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="@Url.Action("Edit", new { referenceId = ViewBag.Users[i].ReferenceId })">
+                        <i class="fa fa-pencil moj-fa"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </table>
+    @Html.ActionLink("Dodaj korisnika", "Register", "Account")
+</div>

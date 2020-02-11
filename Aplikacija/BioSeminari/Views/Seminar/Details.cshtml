@@ -1,0 +1,165 @@
+﻿@model MSDNRoles.Models.Seminar
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="container">
+    <h4>Detalji seminara</h4>
+
+    <div>
+
+        <h2 class="title-mylayout">@Html.DisplayFor(model => model.Naziv)</h2>
+        <hr style="clear: both;" />
+        <dl class="dl-horizontal">
+            <dt>
+                Opis seminara
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Opis)
+            </dd>
+            <dt>
+                Predavač
+            </dt>
+            <dd>
+                @Html.Raw(ViewBag.Predavac)
+            </dd>
+            <dt><br /></dt>
+            <dd></dd>
+            <dt>
+                Početak seminara
+            </dt>
+            <dd></dd>
+            <dt>
+                Datum:
+            </dt>
+
+            <dd>
+                @{
+                    string datumSeminara = Model.Datum.ToString("dd.MM.yyyy.");
+                }
+                @Html.DisplayFor(model => datumSeminara)
+            </dd>
+
+            <dt>
+                Vrijeme:
+            </dt>
+
+            <dd>
+                @{
+                    string vrijemeSeminara = Model.Datum.ToString("HH:mm");
+                }
+                @Html.DisplayFor(model => vrijemeSeminara)
+            </dd>
+        </dl>
+        @if (User.IsInRole("Admin") || User.IsInRole("Zaposlenik"))
+        {
+            <div class="pull-right m-right-10">
+                <a href="#" data-toggle="modal" data-target="#exampleModal">
+                    <i class="fa fa-trash moj-fa" data-toggle="modal" data-target="#myModal"></i>
+                </a>
+            </div>
+            <div class="pull-right m-right-10">
+                <a href="@Url.Action("Edit", new { Id = Model.Id })">
+                    <i class="fa fa-pencil moj-fa"></i>
+                </a>
+            </div>
+        }
+
+        @if (Request.IsAuthenticated)
+        {
+            if (Model.Popunjen == true)
+            {
+                <div style="font-size:large" class="text-warning">Seminar je popunjen!</div>
+            }
+            else
+            {
+                <div style="font-size:large" class="text-success">Prima predbilježbe.</div>
+            }
+        }
+        <div class="pull-right m-right-10">
+            @if (Model.Popunjen == false)
+            {
+                @Html.ActionLink("Predbilježi se", "Create", "Predbiljezba", new { @id = Model.Id }, new { @class = "btn btn-table" })
+            }
+            else
+            {
+                @Html.ActionLink("Popunjen", "Create", "Predbiljezba", new { @id = Model.Id }, new
+                {
+                    @class = "btn btn-primary",
+                    @disabled = "disabled"
+                })
+            }
+        </div>
+        <hr />
+
+        @if (ViewBag.PredbiljezbePoSeminaru != null)
+        {
+            <h3>Predbilježbe</h3>
+            <table class="table">
+                <tr>
+                    <th>Ime</th>
+                    <th>Prezime</th>
+                    <th>Datum prijave</th>
+                    <th>Status</th>
+                    <th></th>
+                </tr>
+                @foreach (var p in ViewBag.PredbiljezbePoSeminaru)
+                {
+                    <tr>
+                        <td>@p.Ime</td>
+                        <td>@p.Prezime</td>
+                        <td>
+                            @{
+                                string datumPredbiljezbe = p.Datum.ToString("dd.MM.yyyy.");
+                            }
+                            @Html.DisplayFor(model => datumPredbiljezbe)
+                        </td>
+                        <td>
+                            @if (p.Status)
+                            {
+                                @Html.Raw("Prihvaćen")
+                            }
+                            else
+                            {
+                                @Html.Raw("Nepregledan");
+                            }
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Details", "Predbiljezba", new { id = p.Id })">
+                                <i class="fa fa-info-circle moj-fa"></i>
+                                @*</a>@Html.ActionLink("Detalji", "Details", "Predbiljezba", new { id = p.Id }, null)*@
+                        </td>
+                    </tr>
+                }
+            </table>
+        }
+    </div>
+    <p style="right:auto">
+        @Html.ActionLink("Vrati na popis", "Index")
+    </p>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document" style="left: 0px;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">Upozorenje</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Jeste li sigurni da želite obrisati ovaj seminar (ID: @Html.Raw(Model.Id))?
+                <br /><br />
+                <h4 class="modal-title" id="exampleModalLabel">@Html.Raw(Model.Naziv)</h4>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Otkaži</button>
+                <a type="button" class="btn btn-primary" href="@Url.Action("Delete", new { Id = Model.Id })">Obriši</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,146 @@
+﻿@model MSDNRoles.Models.Seminar
+
+@{
+    ViewBag.Title = "Create";
+}
+<div class="container">
+    <table class="table"><tr><th><h2 style="color:white">Novi seminar</h2></th></tr></table>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                <div class="col-md-2">
+                    <label>Naziv:</label>
+                </div>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Naziv, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Naziv, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-2">
+                    <label>Opis:</label>
+                </div>
+                <div class="col-md-10">
+                    <textarea cols="20" class="form-control" id="Opis" name="Opis" rows="8"></textarea>
+                    @Html.ValidationMessageFor(model => model.Opis, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-2">
+                    <label>Datum:</label>
+                </div>
+                <div class="col-md-10">
+                    <div class="input-group date" id="datetimepicker2">
+                        <input type="text" class="form-control" id="date" />
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                    <span style="display: none" id="dateError" class="text-danger field-validation-error" data-valmsg-for="Datum" data-valmsg-replace="true">
+                        <span for="Datum" class="">Datum mora biti u budućnosti, ali ne više od godinu dana.</span>
+                    </span>
+                    <input type="hidden" data-val="true" data-val-date="Mora biti u formatu DATUM (MM/dd/yyyy HH:mm:00)." data-val-required="Datum je obavezno polje." id="Datum" name="Datum" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-2">
+                    <label>Predavač:</label>
+                </div>
+                <input type="hidden" id="zaposlenikReferenceId" name="ZaposlenikReferenceId" />
+                <div class="col-md-10">
+                    <div class = "dropdown" id="predavac">
+                        <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">
+                            <span id="selectedZaposlenik">Odaberite zaposlenika</span>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            @{
+                                if (ViewBag.Zaposlenici != null)
+                                {
+                                    foreach (var zap in ViewBag.Zaposlenici)
+                                    {
+                                        <li><a href="#" data-referenceId="@zap.ReferenceId">@zap.FullName()</a></li>
+                                    }
+                                }
+                                else
+                                {
+                                    <li>Nema zaposlenika</li>
+                                }
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Kreiraj" class="btn btn-default" />
+                </div>
+            </div>
+
+            <input type="hidden" name="Datum" id="stvarnoDatum" />
+        </div>
+    }
+
+    <div>
+        @Html.ActionLink("Vrati na listu", "Index")
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $('#btnSubmit').on('click', function () {
+            if ($('#dateError').is(':visible')) {
+                return false;
+            }
+        });
+    });
+
+    $(function () {
+        $('#datetimepicker2').datetimepicker({
+            locale: 'hr',
+            minDate: new Date()
+            //defaultDate: minDate("MM/dd/yyyy HH:mm:00")
+        });
+
+        $('#datetimepicker2').on('dp.change', function (e) {
+            if (new Date(e.date) > getYearFromNow()) {
+                $('#dateError').show();
+            }
+            else {
+                $('#Datum').val(e.date.format());
+                $('#dateError').hide();
+            }
+        });
+    });
+
+    $('#predavac li a').click(function () {
+        var referenceId = $(this).attr('data-referenceId');
+        var fullName = $(this).html();
+        $('#zaposlenikReferenceId').val(referenceId);
+        $('#selectedZaposlenik').html(fullName);
+    });
+
+    function getYearFromNow() {
+        var now = new Date();
+        var year = now.getFullYear();
+        var month = now.getMonth();
+        var day = now.getDate();
+        var returnValue = new Date(year + 1, month, day);
+        return returnValue;
+    }
+</script>

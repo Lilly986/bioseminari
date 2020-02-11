@@ -1,0 +1,30 @@
+﻿@model IEnumerable<MSDNRoles.ViewModel.PredbiljezbePoSeminaru>
+
+@{
+    ViewBag.Title = "Predbiljezeni ";
+}
+
+<h2>Student Body Statistics</h2>
+
+<table>
+    <tr>
+        <th>
+            Enrollment Date
+        </th>
+        <th>
+            Students
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SeminarId)
+            </td>
+            <td>
+                @item.PrediljezbaCount
+            </td>
+        </tr>
+    }
+</table>

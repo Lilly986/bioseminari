@@ -1,0 +1,332 @@
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\ApplicationInsights.config
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\csc.exe
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\csc.exe.config
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\csc.rsp
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\csi.exe
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\csi.rsp
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\System.AppContext.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\vbc.exe
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\vbc.exe.config
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\vbc.rsp
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\VBCSCompiler.exe
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\MSDNRoles.dll.config
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\MSDNRoles.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\MSDNRoles.pdb
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Antlr3.Runtime.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\EntityFramework.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\EntityFramework.SqlServer.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AI.Web.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Newtonsoft.Json.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Owin.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.Helpers.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.Mvc.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.Optimization.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.Razor.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.WebPages.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.WebPages.Razor.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\WebGrease.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.Helpers.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.Mvc.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.Optimization.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.Razor.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.WebPages.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.WebPages.Razor.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Antlr3.Runtime.pdb
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Newtonsoft.Json.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\EntityFramework.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\EntityFramework.SqlServer.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AI.Web.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\obj\Debug\MSDNRoles.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\obj\Debug\MSDNRoles.pdb
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\obj\Debug\BioSeminari.csprojResolveAssemblyReference.cache
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\PagedList.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\PagedList.Mvc.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\PagedList.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski_NEW\Aplikacija\BioSeminari\bin\PagedList.Mvc.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\ApplicationInsights.config
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\csc.exe
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\csc.exe.config
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\csc.rsp
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\csi.exe
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\csi.rsp
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CodeAnalysis.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CSharp.Core.targets
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\Microsoft.VisualBasic.Core.targets
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\System.AppContext.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\System.Collections.Immutable.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\System.Diagnostics.StackTrace.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\System.IO.FileSystem.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\System.IO.FileSystem.Primitives.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\System.Reflection.Metadata.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\vbc.exe
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\vbc.exe.config
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\vbc.rsp
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\VBCSCompiler.exe
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\roslyn\VBCSCompiler.exe.config
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\MSDNRoles.dll.config
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\MSDNRoles.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\MSDNRoles.pdb
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Antlr3.Runtime.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\EntityFramework.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\EntityFramework.SqlServer.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AI.Agent.Intercept.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AI.DependencyCollector.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AI.PerfCounterCollector.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AI.ServerTelemetryChannel.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AI.Web.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AI.WindowsServer.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.ApplicationInsights.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AspNet.Identity.Core.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AspNet.Identity.Owin.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Host.SystemWeb.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Cookies.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Facebook.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Google.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.OAuth.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Twitter.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Web.Infrastructure.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Newtonsoft.Json.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Owin.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\PagedList.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\PagedList.Mvc.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.Helpers.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.Mvc.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.Optimization.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.Razor.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.WebPages.Deployment.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.WebPages.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.WebPages.Razor.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\WebGrease.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\PagedList.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\PagedList.Mvc.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.Helpers.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.Mvc.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.Optimization.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.Razor.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.WebPages.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.WebPages.Deployment.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\System.Web.WebPages.Razor.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Antlr3.Runtime.pdb
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Newtonsoft.Json.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\EntityFramework.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\EntityFramework.SqlServer.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AspNet.Identity.Core.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AspNet.Identity.Owin.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Host.SystemWeb.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Facebook.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Cookies.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.OAuth.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Google.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Twitter.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.ApplicationInsights.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AI.DependencyCollector.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AI.ServerTelemetryChannel.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AI.WindowsServer.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\bin\Microsoft.AI.Web.xml
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\obj\Debug\BioSeminari.csprojResolveAssemblyReference.cache
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\obj\Debug\BioSeminari.csproj.CoreCompileInputs.cache
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\obj\Debug\MSDNRoles.dll
+A:\Projecsts Petra\Seminarski_NEW\Aplikacija\BioSeminari\obj\Debug\MSDNRoles.pdb
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\ApplicationInsights.config
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\csc.exe
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\csc.exe.config
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\csc.rsp
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\csi.exe
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\csi.rsp
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\System.AppContext.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\vbc.exe
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\vbc.exe.config
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\vbc.rsp
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\VBCSCompiler.exe
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\MSDNRoles.dll.config
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\MSDNRoles.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\MSDNRoles.pdb
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\PagedList.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\PagedList.Mvc.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\System.Web.Helpers.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\System.Web.Mvc.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\System.Web.Optimization.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\System.Web.Razor.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\System.Web.WebPages.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\System.Web.WebPages.Razor.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\Antlr3.Runtime.pdb
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\Newtonsoft.Json.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\EntityFramework.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\EntityFramework.SqlServer.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.Owin.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.AI.Web.xml
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\obj\Debug\BioSeminari.csprojResolveAssemblyReference.cache
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\obj\Debug\MSDNRoles.dll
+C:\Users\Korisnik\Google Drive\Algebra\Seminarski rad\Aplikacija\BioSeminari\obj\Debug\MSDNRoles.pdb
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\ApplicationInsights.config
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\csc.exe
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\csc.exe.config
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\csc.rsp
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\csi.exe
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\csi.rsp
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\System.AppContext.dll
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\System.Collections.Immutable.dll
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\System.IO.FileSystem.dll
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\System.Reflection.Metadata.dll
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\vbc.exe
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\vbc.exe.config
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\vbc.rsp
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\VBCSCompiler.exe
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\roslyn\VBCSCompiler.exe.config
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\MSDNRoles.dll.config
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\MSDNRoles.dll
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\MSDNRoles.pdb
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\PagedList.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\PagedList.Mvc.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\System.Web.Helpers.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\System.Web.Mvc.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\System.Web.Optimization.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\System.Web.Razor.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\System.Web.WebPages.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\System.Web.WebPages.Deployment.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\System.Web.WebPages.Razor.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\Antlr3.Runtime.pdb
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\Newtonsoft.Json.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\EntityFramework.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\EntityFramework.SqlServer.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.Owin.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Google.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.ApplicationInsights.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.AI.DependencyCollector.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.AI.WindowsServer.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\bin\Microsoft.AI.Web.xml
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\obj\Debug\MSDNRoles.dll
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\obj\Debug\MSDNRoles.pdb
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\obj\Debug\MSDNRoles.Migrations.test.resources
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\obj\Debug\BioSeminari.csproj.GenerateResource.Cache
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\obj\Debug\BioSeminari.csprojAssemblyReference.cache
+E:\Visual Studio 2017\Projects\Seminarski rad\Aplikacija\BioSeminari\obj\Debug\BioSeminari.csproj.CopyComplete

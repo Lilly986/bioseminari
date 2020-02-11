@@ -1,0 +1,57 @@
+﻿@model MSDNRoles.Models.Seminar
+
+@{
+    ViewBag.Title = "Delete";
+}
+<div class="container">
+    <h2>Izbriši</h2>
+
+    <h4>Želite ukloniti seminar?</h4>
+    <div>
+        <h3>@Html.DisplayFor(model => model.Naziv)</h3>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                <label>Naziv:</label>
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Naziv)
+            </dd>
+
+            <dt>
+                <label>Opis:</label>
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Opis)
+            </dd>
+
+            <dt>
+                <label>Datum:</label>
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Datum)
+            </dd>
+
+            <dt>
+                <label>Popunjen:</label>
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Popunjen)
+            </dd>
+        </dl>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Izbriši" class="btn btn-default" /> |
+                @Html.ActionLink("Vrati na popis", "Index")
+            </div>
+        }
+    </div>
+</div>

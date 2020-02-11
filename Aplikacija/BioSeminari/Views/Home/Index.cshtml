@@ -1,0 +1,111 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<!-- Header ================================================== -->
+<header id="nino-header" class="home">
+    <div id="nino-headerInner">
+        <section id="nino-slider" class="carousel slide container" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <h2 class="nino-sectionHeading">
+                        <span class="nino-subHeading">Stručni seminari u području biologije</span>
+                        Bio seminari
+                    </h2>
+                    @Html.ActionLink("Seminari", "Index", "Seminar", null, new { @class = "nino-btn" })
+                </div>
+                <div class="item">
+                    <h2 class="nino-sectionHeading small">
+                        O Seminarima
+                    </h2>
+                    <span class="nino-subHeading">
+                        BioSeminari su online seminari za one koji se žele stručno osposobiti u području biologije, ili samo žele naučiti više o biologiji.
+                        Naši seminari se sastoje od teroetskog, praktičnog i terenskog dijela, a nakon što položite ispit iz nekog područja, ososobljeni ste za zaposlenje u području biologije.
+                    </span>
+                    <br />
+                    <br />
+                    @Html.ActionLink("Seminari", "Index", "Seminar", null, new { @class = "nino-btn" })
+                </div>
+                <div class="item">
+                    <div class="nino-subHeading">
+                        <span class="nino-subHeading">Javite nam se za više informacija</span>
+                        <br />
+                        <br />
+                        <br />
+                        BioSeminari d.o.o. Roosweltov trg 18 | HR-10000 Zagreb
+                        <br />
+                        TEL: +385 1 3855 855 | FAX. +385 1 3882 555
+                        <br />
+                        <br />
+                        Radno vrijeme od ponedjeljka do petka od 16:00 do 21:00
+                        <br />
+                        <br />
+                        <br />
+                    </div>
+                    <a href="mailto:info@bioseminari.hr" class="nino-btn">info@bioseminari.hr</a>
+                </div>
+            </div>
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators clearfix">
+                <li data-target="#nino-slider" data-slide-to="0" class="active">
+                    <div class="inner">
+                        <span class="number">01</span> Početna
+                    </div>
+                </li>
+                <li data-target="#nino-slider" data-slide-to="1">
+                    <div class="inner">
+                        <span class="number">02</span> O seminarima
+                    </div>
+                </li>
+                <li data-target="#nino-slider" data-slide-to="2">
+                    <div class="inner">
+                        <span class="number">03</span> Kontakt
+                    </div>
+                </li>
+            </ol>
+        </section>
+    </div>
+</header><!--/#header-->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Općenito</h2>
+            <p>
+                Biologija, jedna od najdinamičnijih i najznačajnijih znanstvenih disciplina današnjice, proučava strukturu, funkciju
+                i evoluciju živog svijeta od razine stanice i bioloških molekula pa do čitavih ekosustava. Pronalaženje odgovora na
+                neke od ključnih problema suvremenog čovječanstva, poput staničnih mehanizmama nastanka bolesti i otkrivanje novih načina
+                liječenja ili problema globalnog smanjenja bioraznolikosti i kako ga zaustaviti, čine istraživanja u biologiji pretpostavkom
+                održivog života čovjeka na Zemlji. <br />
+                Online tečajevi seminara biologije započeli su s radom u 2012. godine. Dosadašnja iskustva se mogu
+                ocijeniti vrlo pozitivnom ocjenom od strane nastavnika i studenata. Analiza višegodišnjeg razdoblja postojanja
+                studija ukazuje na trend podizanja kvalitete nastave i uvjeta studiranja. Zanimanje studenata za ove seminare
+                je konstantno visoko. Prilagođavanje studija bolonjskom procesu prilika
+                je za daljnje podizanje kvalitete studija, posebice u pogledu brzine studiranja, veće mobilnosti studenata i još
+                intenzivnijem uključivanju studenata u znanstveni rad.
+            </p>
+        </div>
+    </div>
+</div>
+
+<section id="nino-story">
+    <div class="container">
+        <h2 class="nino-sectionHeading"><span class="nino-subHeading">Što radimo</span> O nama</h2>
+        <p class="nino-sectionDesc">
+            Primjenjena i temeljna istraživanja. Živimo u doba najuzbudljivijih bioloških otkrića kojima svakodnevno doznajemo nešto novo o strukturi i funkciji živih sustava. Više od 130 naših znanstvenika – biologa u laboratorijima i na terenu istražuju biološke sustave, od stanica do ekosustava, od kopna, rijeka i jezera do mora</p>
+            <div class="sectionContent">
+                <div class="row nino-hoverEffect">
+                    <div class="col-md-4 col-sm-4">
+                        <div class="item"><span class="content"><i class="mdi mdi-account-multiple nino-icon"></i> Studenti</span><img src="~/Content/Images/story/img-2.jpg" alt=""></div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="item"><span class="content"><i class="mdi mdi-image-filter-center-focus-weak nino-icon"></i> Produktivnost</span><img src="~/Content/Images/story/img-3.jpg" alt=""></div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="item"><span class="content"><i class="mdi mdi-airplay nino-icon"></i> Lokacija</span><img src="~/Content/Images/story/img-1.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+</div>
+</section>

@@ -1,0 +1,117 @@
+﻿@model IEnumerable<MSDNRoles.Models.Seminar>
+@*MSDNRoles.ViewModel.PredbiljezbePoSeminaruViewModel*@
+
+@{
+    ViewBag.Title = "Popis seminara";
+}
+
+<h2>Seminari</h2>
+
+@Html.Raw(ViewBag.Poruka)
+
+<p>
+    @Html.ActionLink("Dodaj novi seminar", "Create", "Seminar")
+</p>
+<table class="table">
+    <tr>
+        <th>
+
+        </th>
+        <th>
+            Naziv seminara
+        </th>
+        <th>
+            Datum održavanja
+        </th>
+        @if (User.IsInRole("Admin") || User.IsInRole("Zaposlenik"))
+        {
+            <th>
+                Broj predbilježbi
+            </th>
+
+            <th>
+                Popunjen
+            </th>
+        }
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @if (item.Popunjen == false)
+                {
+                    @Html.ActionLink("Predbilježi se", "Create", "Predbiljezba", new { @id = item.Id }, new { @class = "btn btn-primary" })
+                }
+                else
+                {
+                    @Html.ActionLink("Popunjen", "Create", "Predbiljezba", new { @id = item.Id }, new
+               {
+                   @class = "btn btn-primary",
+                   @disabled = "disabled"
+               })
+                }
+            </td>
+            <td>
+                <a href="#" onclick="openDetails('@item.Id')">
+                    @item.Naziv
+                </a>
+            </td>
+            <td>
+                @{
+                    string datumSeminara = item.Datum.ToString("dd.MM.yyyy.");
+                }
+                @Html.DisplayFor(modelItem => datumSeminara)
+            </td>
+            @if (User.IsInRole("Admin") || User.IsInRole("Zaposlenik"))
+            {
+                <td>
+                    @Html.Raw(item.BrojPredbiljezbi)
+
+
+                    @*@{
+                            int brojPredbiljezbi = (from pr in Model.PredbiljezbePoSeminaru
+                                                    where pr.IdSeminar == item.Id
+                                                    select pr).Count();
+                        }
+                        @Html.Raw(brojPredbiljezbi);*@
+                </td>
+
+                <td>
+                    @Html.Raw(item.Popunjen ? "Da" : "Ne")
+                </td>
+            }
+            <td>
+                <a href="@Url.Action("Details", new { id = item.Id })">
+                    <i class="fa fa-info-circle moj-fa"></i>
+                </a>
+                @if (User.IsInRole("Admin") || User.IsInRole("Zaposlenik"))
+                {
+
+                    <a href="@Url.Action("Edit", new { id = item.Id })">
+                        <i class="fa fa-pencil-square-o moj-fa"></i>
+                    </a>
+                    <a href="@Url.Action("Delete", new { id = item.Id })">
+                        <i class="fa fa-trash moj-fa"></i>
+                    </a>
+
+                }
+            </td>
+        </tr>
+        <tr class="detalji">
+            <td colspan="2"></td>
+            <td colspan="3">
+                <div id="@item.Id" style="display: none">
+                    @Html.DisplayFor(modelItem => item.Opis)
+                </div>
+            </td>
+        </tr>
+                    }
+
+</table>
+<script type="text/javascript">
+    function openDetails(id) {
+        $('#' + id).slideToggle();
+    }
+</script>

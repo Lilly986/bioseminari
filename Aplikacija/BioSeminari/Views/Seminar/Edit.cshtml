@@ -1,0 +1,170 @@
+﻿@model MSDNRoles.Models.Seminar
+
+@{
+    ViewBag.Title = "Edit";
+}
+<div class="container">
+    <h2>Uredi seminar</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h3 class="title-mylayout">@Html.DisplayFor(model => model.Naziv)</h3>
+
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.Id)
+
+            <div class="form-group">
+                <div class="col-md-2">
+                    <label>Naziv:</label>
+                </div>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Naziv, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Naziv, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-2">
+                    <label>Opis:</label>
+                </div>
+                <div class="col-md-10">
+                    <textarea cols="20" class="form-control" id="Opis" name="Opis" rows="8">@Model.Opis</textarea>
+                    @Html.ValidationMessageFor(model => model.Opis, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-2">
+                    <label>Datum:</label>
+                </div>
+                <div class="col-md-10">
+                    <div class="input-group date" id="datetimepicker2">
+                        <input type="text" class="form-control" id="date" />
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                    <span style="display: none" id="dateError" class="text-danger field-validation-error" data-valmsg-for="Datum" data-valmsg-replace="true">
+                        <span for="Datum" class="">Datum mora biti u budućnosti, ali ne više od godinu dana.</span>
+                    </span>
+                    <input type="hidden" data-val="true" data-val-date="Mora biti u formatu DATUM (MM/dd/yyyy HH:mm:00)." data-val-required="Datum je obavezno polje." id="Datum" name="Datum" value="@Model.Datum.ToString("dd/MM/yyyy HH:mm:00")" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-2">
+                    <label>Predavač:</label>
+                </div>
+                <input type="hidden" id="zaposlenikReferenceId" name="ZaposlenikReferenceId" />
+                <div class="col-md-10">
+                    <div class="dropdown" id="predavac">
+                        <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">
+                            <span id="selectedZaposlenik">@ViewBag.IzabraniPredavac</span>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            @{
+                                if (ViewBag.Zaposlenici != null)
+                                {
+                                    foreach (var zap in ViewBag.Zaposlenici)
+                                    {
+                                        <li><a href="#" data-referenceId="@zap.ReferenceId">@zap.FullName()</a></li>
+                                    }
+                                }
+                                else
+                                {
+                                    <li>Nema zaposlenika</li>
+                                }
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-2">
+                    <label>Popunjen:</label>
+                </div>
+                <div class="col-md-10">
+                    <div class="my-checkbox">
+                        <input type="checkbox" @Html.Raw(Model.Popunjen ? "checked=\"checked\"" : "") name="Popunjen" id="Popunjen" class="my-checkbox m-top-10" value="true" style="width:20px; height:20px" />
+                        <label for="Popunjen" class="my-checkbox">
+                            @if (Model.Popunjen == true)
+        {
+                    <div style="font-size:large" class="text-warning m-left-20">Seminar je popunjen!</div>
+}
+else
+{
+                    <div style="font-size:large" class="text-success m-left-20">Prima predbilježbe.</div>
+}
+                        </label>
+                        @*@Html.HiddenFor(model => model.Popunjen)*@
+                        @*@Html.ValidationMessageFor(model => model.Popunjen, "", new { @class = "text-danger" })*@
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input id="btnSubmit" type="submit" value="Spremi promjene" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+
+    <div>
+        @Html.ActionLink("Vrati na popis", "Index")
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<!-- Code to wire up your DatePicker -->
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $('#btnSubmit').on('click', function () {
+            if ($('#dateError').is(':visible')) {
+                return false;
+            }
+        });
+    });
+
+    $(function () {
+        $('#datetimepicker2').datetimepicker({
+            locale: 'hr',
+            defaultDate: '@Model.Datum.ToString("MM/dd/yyyy HH:mm:00")',
+            //minDate: new Date()
+        });
+
+        $('#datetimepicker2').on('dp.change', function (e) {
+            if (new Date(e.date) > getYearFromNow()) {
+                $('#dateError').show();
+            }
+            else {
+                $('#Datum').val(e.date.format());
+                $('#dateError').hide();
+            }
+        });
+    });
+
+    $('#predavac li a').click(function () {
+        var referenceId = $(this).attr('data-referenceId');
+        var fullName = $(this).html();
+        $('#zaposlenikReferenceId').val(referenceId);
+        $('#selectedZaposlenik').html(fullName);
+    });
+
+    function getYearFromNow() {
+        var now = new Date();
+        var year = now.getFullYear();
+        var month = now.getMonth();
+        var day = now.getDate();
+        var returnValue = new Date(year + 1, month, day);
+        return returnValue;
+    }
+</script>

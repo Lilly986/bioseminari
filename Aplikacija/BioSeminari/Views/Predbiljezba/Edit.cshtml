@@ -1,0 +1,130 @@
+﻿@model MSDNRoles.Models.Predbiljezba
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<div class="container">
+    <h4>Uredi predbilježbu #@Html.Raw(Model.Id)</h4>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.Datum, null)
+        <div class="form-horizontal">
+            <h2>@ViewBag.IzabraniSeminar</h2>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.Id)
+            <div class="form-group">
+                @Html.LabelFor(model => model.Ime, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Ime, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Ime, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Prezime, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Prezime, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Prezime, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Adresa, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Adresa, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Adresa, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Telefon, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Telefon, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Telefon, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Seminar, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <div class="dropdown" id="seminar">
+                        <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">
+                            <span id="selectedSeminar">@ViewBag.IzabraniSeminar</span>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            @{
+                                if (ViewBag.SeminariDrop != null)
+                                {
+                                    foreach (var sem in ViewBag.SeminariDrop)
+                                    {
+                                        <li><a data-id="@sem.Id">@sem.Naziv</a></li>
+                                    }
+                                }
+                                else
+                                {
+                                    <li>Nema slobodnih seminara</li>
+                                }
+                            }
+                        </ul>
+                    </div>
+                    <input type="hidden" id="seminarId" name="IdSeminar" />
+                    @Html.HiddenFor(model => model.IdSeminar, new { })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Status, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <div class="radio">
+                        @Html.RadioButtonFor(model => model.Status, "true") Prihvaćen
+                    </div>
+                    <div class="radio">
+                        @Html.RadioButtonFor(model => model.Status, "false") Nepregledan
+                        @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Spremi    " class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+
+    <div>
+        @Html.ActionLink("Vrati na listu predbilježbi", "Index")
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<script type="text/javascript">
+    $('#seminar li a').click(function () {
+        var Id = $(this).attr('data-Id');
+        var naziv = $(this).html();
+        $('#seminarId').val(Id);
+        $('#selectedSeminar').html(naziv);
+    });
+
+    $(document).ready(function () {
+        $('#seminarId').val('@Model.IdSeminar');
+        $('#selectedSeminar').html('@ViewBag.IzabraniSeminar');
+    });
+</script>

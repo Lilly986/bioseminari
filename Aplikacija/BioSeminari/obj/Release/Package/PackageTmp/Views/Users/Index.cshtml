@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+@if (ViewBag.displayMenu == "Yes")
+{
+    <h1>Welcome Admin. Now you can create user Role.</h1>
+    <h3>
+        <li>@Html.ActionLink("Manage Role", "Index", "Role")</li>
+    </h3>
+}
+else
+{
+    <h2>  Welcome <strong>@ViewBag.Name</strong> :) .We will add user module soon </h2>
+}
+ 
+
+<table class="table users">
+    <tr>
+        <td>Identifikator</td>
+        <td>Korisničko ime</td>
+        <td>Email adresa</td> 
+        <td>Detalji</td>
+        <td>Uredi</td>
+    </tr>
+    @for (int i = 0; i < ViewBag.Users.Count; i++)
+    {
+    <tr>
+        <td>@ViewBag.Users[i].ReferenceId</td>
+        <td>@ViewBag.Users[i].UserName</td>
+        <td>@ViewBag.Users[i].Email</td>
+        <td>
+            <a href="@Url.Action("Details", new { id = ViewBag.Users[i].ReferenceId })">
+                <i class="fa fa-info-circle moj-fa"></i>
+            </a>
+        </td>
+        <td>
+            <a href="@Url.Action("Edit", new { id = ViewBag.Users[i].ReferenceId })">
+                <i class="fa fa-pencil-square-o moj-fa"></i>
+            </a>
+        </td>
+    </tr>
+    }
+</table> 
+@Html.ActionLink("Dodaj korisnika", "Register", "Account");

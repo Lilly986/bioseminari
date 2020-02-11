@@ -1,0 +1,16 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+    ViewBag.Title = "Error";
+}
+<div class="container">
+    <h1 class="text-danger m-top-20">Greška.</h1>
+    <hr />
+    <h3>Došlo je do greške pri obradi zahtjeva.</h3>
+
+    <h5>Detalji greške:</h5>
+
+    <p>
+        @Model.Exception.Message
+    </p>
+</div>

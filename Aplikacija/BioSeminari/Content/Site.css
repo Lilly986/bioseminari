@@ -1,0 +1,256 @@
+﻿/*body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.dl-horizontal dt {
+    white-space: normal;
+}
+input,
+select,
+textarea {
+    max-width: 560px;
+}
+
+.table.users {
+}
+
+th.asc:after {
+    content: "\f0dd";
+    font-family: FontAwesome;
+}
+
+th.desc:after {
+    content: "\f0de";
+    font-family: FontAwesome;
+}
+    */
+#nino-header {
+    position: relative;
+    font-family: 'Montserrat',sans-serif;
+    background: url("Images/gecko.jpg") no-repeat center center / cover;
+}
+
+    #nino-header:after {
+        background: #159957; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #155799, #159957) !important; /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #155799, #159957) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        opacity: 0.9;
+    }
+
+span.nino-subHeading {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 22px !important;
+}
+
+#nino-header {
+    z-index: 9999;
+}
+
+    #nino-header.home {
+        z-index: 1;
+    }
+
+.table tr:first-child {
+    background: #159957; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #155799, #159957) !important; /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #155799, #159957) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+    .table tr:first-child h2 {
+        color: white
+    }
+
+.title-mylayout {
+    background: #159957; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #155799, #159957) !important; /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #155799, #159957) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.moj-fa {
+    font-size: 28px;
+    color: teal;
+}
+
+tr.detalji td {
+    padding: 0px !important;
+    border-top: none !important;
+}
+
+td {
+    vertical-align: middle !important;
+    font-size: 16px;
+    color: #000000;
+}
+
+    td a {
+        color: #156689;
+    }
+
+th a, th a:hover {
+    color: #ffffff;
+}
+
+    th a:after {
+        content: "\f0dc";
+        font-family: FontAwesome;
+        margin-left: 10px;
+    }
+
+th.asc a:after {
+    content: "\f0de";
+    font-family: FontAwesome;
+    margin-left: 10px;
+}
+
+th.desc a:after {
+    content: "\f0dd";
+    font-family: FontAwesome;
+    margin-left: 10px;
+}
+
+/* Pretraga */
+.search-wrapper {
+    float: right;
+}
+
+.search {
+    position: relative;
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+    .search input {
+        padding-right: 30px;
+    }
+
+    .search:after {
+        content: '\f002';
+        font-family: FontAwesome;
+        position: absolute;
+        bottom: 7px;
+        right: 10px;
+    }
+
+/* End pretraga */
+
+.btn-table {
+    color: #fff;
+    background-color: #15965a;
+    border-color: #064a74;
+    font-weight: bold;
+}
+
+    .btn-table:hover {
+        background-color: #156c83;
+        color: #fff;
+    }
+
+.my-checkbox > input {
+    width: 30px;
+    height: 30px;
+}
+
+/* Margin classes */
+.m-top-5 {
+    margin-top: 5px;
+}
+
+.m-right-5 {
+    margin-right: 5px;
+}
+
+.m-bottom-5 {
+    margin-bottom: 5px;
+}
+
+.m-left-5 {
+    margin-left: 5px;
+}
+
+.m-top-10 {
+    margin-top: 10px;
+}
+
+.m-right-10 {
+    margin-right: 10px;
+}
+
+.m-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.m-left-20 {
+    margin-left: 20px;
+}
+
+.m-top-20 {
+    margin-top: 20px;
+}
+
+.m-right-20 {
+    margin-right: 20px;
+}
+
+.m-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.m-left-20 {
+    margin-left: 20px;
+}
+
+/* End Margin classes */
+
+.user-name {
+    text-align: center;
+}
+
+a > i {
+    margin-left: 5px;
+}
+
+.carousel-inner > .item > img {
+    width: auto;
+    height: 386px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.dropdown li a {
+    cursor: pointer;
+}
+
+.nino-sectionHeading.small {
+    font-size: 36px !important;
+}
+
+.carousel-indicators.clearfix li {
+    width: 33.33% !important;
+}
+
+/* Validation style */
+.field-validation-error {
+    color: #640000;
+}
+.validation-summary-errors {
+    color: #640000;
+    font-weight: bold;
+}
+.input-validation-error {
+    border: 2px solid #800000;
+    background-color: #fee;
+}
+input[type="checkbox"].input-validation-error {
+    outline: 2 px solid #800000;
+}

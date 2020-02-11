@@ -1,0 +1,76 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 560px;
+}
+
+.table.users {
+}
+
+
+.moj-fa {
+    font-size: 28px;
+    color: midnightblue;
+}
+
+tr.detalji td {
+    padding: 0px !important;
+    border-top: none !important;
+}
+
+.my-checkbox > input {
+    width: 30px;
+    height: 30px;
+}
+
+.search-wrapper {
+    float: right;
+}
+
+.search {
+    position: relative;
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+    .search input {
+        padding-right: 30px;
+    }
+
+    .search:after {
+        content: '\f002';
+        font-family: FontAwesome;
+        position: absolute;
+        bottom: 7px;
+        right: 10px;
+    }
+
+
+th.asc:after {
+    content: "\f0dd";
+    font-family: FontAwesome;
+}
+
+th.desc:after {
+    content: "\f0de";
+    font-family: FontAwesome;
+}

@@ -1,0 +1,88 @@
+﻿@model PagedList.IPagedList<MSDNRoles.Models.Predbiljezba>
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+
+    <h2>Predbilježbe</h2>
+    <!-- Search -->
+    <form id="searchForm" action="/Predbiljezba" method="get">
+        <div class="search-wrapper">
+            <div for="searchForm">Pretraži po imenu polaznika</div>
+            <div class="search">
+                <input type="text" id="search" name="searchQuery" class="form-control" value="@ViewBag.searchQuery" />
+            </div>
+        </div>
+    </form>
+    <script type="text/javascript">
+        $('#search').on('keypress', function (e) {
+            if (e.which == 13) {
+                $('#searchForm').submit();
+            }
+        });
+    </script>
+    <table class="table">
+        <tr>
+            <th class="@(String.IsNullOrEmpty(@ViewBag.NameSortParm) ? "" : ViewBag.NameSortParm.Substring(8))">
+                @Html.ActionLink("Prezime", "Index", new { sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter })
+            </th>
+            <th>
+                Ime
+            </th>
+            <th>
+                Seminar
+            </th>
+            <th>
+                Status
+            </th>
+            <th class="@(String.IsNullOrEmpty(@ViewBag.DateSortParm)  ? "" : ViewBag.DateSortParm.Substring(6))">
+                @Html.ActionLink("Datum", "Index", new { sortOrder = ViewBag.DateSortParm, currentFilter = ViewBag.CurrentFilter })
+            </th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Prezime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Seminar.Naziv)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @{
+                        string datumPredbiljezbe = item.Datum.ToString("dd.MM.yyyy.");
+                    }
+                    @Html.DisplayFor(model => datumPredbiljezbe)
+                </td>
+                <td>
+                    @if (User.IsInRole("Admin") || User.IsInRole("Zaposlenik"))
+                    {
+                        <a href="@Url.Action("Details", new { id = item.Id })">
+                            <i class="fa fa-info-circle moj-fa m-right-10" title="Detalji"></i>
+                        </a>
+                        <a href="@Url.Action("Edit", new { id = item.Id })">
+                            <i class="fa fa-pencil moj-fa m-left-20" title="Uredi"></i>
+                        </a>
+
+                    }
+                </td>
+            </tr>
+        }
+    </table>
+
+    <br />
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("Index",
+                new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+</div>

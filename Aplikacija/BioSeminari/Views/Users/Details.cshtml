@@ -1,0 +1,106 @@
+﻿@model MSDNRoles.Models.ApplicationUser
+
+@{
+    ViewBag.Title = "Details";
+}
+<div class="container">
+    <div style="display: table-cell; float: left;"><h2>@ViewBag.RoleName</h2></div>
+    @if (User.IsInRole("Admin"))
+    {
+        <div class="pull-right m-right-10">
+            <a href="#" data-toggle="modal" data-target="#exampleModal">
+                <i class="fa fa-trash moj-fa" data-toggle="modal" data-target="#myModal"></i>
+            </a>
+        </div>
+    }
+    <div class="pull-right m-right-10">
+        <a href="@Url.Action("Edit", new { referenceId = Model.ReferenceId })">
+            <i class="fa fa-pencil moj-fa"></i>
+        </a>
+    </div>
+    <hr style="clear: both;" />
+    <h4 class="user-name">@Html.Raw($"{Model.FirstName} {Model.LastName}")</h4>
+
+    <form class="well form-horizontal">
+        <div class="form-group">
+            <label class="col-md-4 control-label">Adresa</label>
+            <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                    <input name="address" placeholder="Adresa" class="form-control" type="text" disabled="disabled" value="@Model.Address">
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-4 control-label">Telefon</label>
+            <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                    <input name="phone" placeholder="091 4564 567" class="form-control" type="text" disabled="disabled" value="@Model.Phone">
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-4 control-label">Email</label>
+            <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                    <input name="email" placeholder="E-Mail" class="form-control" type="text" disabled="disabled" value="@Model.Email">
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-4 control-label">Korisničko ime</label>
+            <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input name="first_name" placeholder="First Name" class="form-control" type="text" disabled="disabled" value="@Model.UserName">
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-4 control-label">Uloga</label>
+            <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                    <input name="first_name" placeholder="First Name" class="form-control" type="text" disabled="disabled" value="@ViewBag.RoleName">
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-4 control-label">Seminar</label>
+            <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                    <input name="first_name" placeholder="First Name" class="form-control" type="text" disabled="disabled" value="@ViewBag.Kolegij">
+                </div>
+            </div>
+        </div>
+    </form>
+    <p>
+        @Html.ActionLink("Vrati na popis", "Index")
+    </p>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document" style="left: 0px;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">Upozorenje</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Jeste li sigurni da želite obrisati ovog korisnika (ID: @Html.Raw(Model.ReferenceId))?
+                <br /><br />
+                <h4 class="modal-title" id="exampleModalLabel">@Html.Raw(Model.FirstName) @Html.Raw(Model.LastName)</h4>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Otkaži</button>
+                <a type="button" class="btn btn-primary" href="@Url.Action("Delete", new { referenceId = Model.ReferenceId })">Obriši</a>
+            </div>
+        </div>
+    </div>
+</div>

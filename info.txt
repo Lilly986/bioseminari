@@ -1,0 +1,11 @@
+
+Administrator
+user:	petra / bioadmin
+email:	petra.lisicar@gmail.com / bioseminari@mail.com
+pass:	pa$$w0rd / pa$$w0rd
+
+
+
+Baza
+user:	bio-admin
+pass:	1234

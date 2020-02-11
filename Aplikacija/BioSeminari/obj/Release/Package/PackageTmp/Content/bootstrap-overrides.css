@@ -1,0 +1,10 @@
+﻿
+.navbar {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9e/Milky_Way_IR_Spitzer.jpg) !important;
+    background-repeat: repeat-x !important;
+    /*background-image: url('/Content/img/..');*/    
+}
+
+    .navbar a {
+        color: #ffffff !important;
+    }

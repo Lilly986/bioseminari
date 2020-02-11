@@ -1,0 +1,12 @@
+﻿.navbar {
+    background-color: #000000 !important;
+    margin-bottom: 0px !important;
+}
+
+    .navbar a {
+        color: #ffffff !important;
+    }
+
+.modal-title {
+    float: left;
+}

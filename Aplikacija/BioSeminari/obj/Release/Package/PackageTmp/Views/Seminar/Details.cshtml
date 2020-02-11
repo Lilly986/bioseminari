@@ -1,0 +1,102 @@
+﻿@model MSDNRoles.Models.Seminar
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h4>Detalji seminara</h4>
+
+<div>
+    @if (User.IsInRole("Admin") || User.IsInRole("Zaposlenik"))
+    {
+        <div style="float:right">
+            @Html.ActionLink("Uredi", "Edit", new { id = Model.Id }, new { @class = "btn btn-primary" })
+        </div>
+    }
+    <h2>@Html.DisplayFor(model => model.Naziv)</h2>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Opis seminara
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Opis)
+        </dd>
+        <dt>
+            Početak seminara
+        </dt>
+        <dd></dd>
+        <dt>
+            Datum:
+        </dt>
+
+        <dd>
+            @{ 
+                string datumSeminara = Model.Datum.ToString("dd.MM.yyyy.");
+            }
+            @Html.DisplayFor(model => datumSeminara)
+        </dd>
+
+        <dt>
+            Vrijeme:
+        </dt>
+
+        <dd>
+            @{
+                string vrijemeSeminara = Model.Datum.ToString("HH:mm");
+            }
+            @Html.DisplayFor(model => vrijemeSeminara)
+        </dd>
+
+    </dl>
+
+        @if(Request.IsAuthenticated)
+        {
+            if(Model.Popunjen == true)
+            {
+                <div style="font-size:large" class="text-warning">Seminar je popunjen!</div>
+            }
+            else
+            {
+                <div style="font-size:large" class="text-success">Prima predbilježbe.</div>
+            }
+        }
+    <hr />
+
+    @if (ViewBag.PredbiljezbePoSeminaru != null)
+    {
+        <h3>Predbilježbe</h3>
+        <table class="table">
+            <tr>
+                <th>Ime</th>
+                <th>Prezime</th>
+                <th>Datum prijave</th>
+                <th>Status</th>
+                <th></th>
+            </tr>
+            @foreach (var p in ViewBag.PredbiljezbePoSeminaru)
+            {
+                <tr>
+                    <td>@p.Ime</td>
+                    <td>@p.Prezime</td>
+                    <td>@p.Datum</td>
+                    <td>
+                        @if (p.Status)
+                        {
+                            @Html.Raw("Prihvaćen")
+                        }
+                        else
+                        {
+                            @Html.Raw("Odbijen");
+                        }
+                    </td>
+                    <td>@Html.ActionLink("Detalji", "Details", "Predbiljezba", new { id = p.Id }, null)</td>
+                </tr>
+            }
+        </table>
+    }
+</div>
+<p style="right:auto">
+    @Html.ActionLink("Vrati na popis", "Index")
+</p>
