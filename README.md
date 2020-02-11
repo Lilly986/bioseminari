@@ -1,6 +1,3 @@
-# hello-world
+# BioSeminari
 
-Hello humans!
-
-Making first changes to file before commit :)))
-Looking forward to using Git (^_^)
+School project - MVC app for students
